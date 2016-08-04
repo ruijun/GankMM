@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <!-- Base application theme. -->
     <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -7,6 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <!-- Button styles -->
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Button.NoAllCaps</item>
     </style>
 
     <style name="AppTheme" parent="@style/BaseAppTheme">
@@ -14,7 +16,7 @@
     </style>
 
     <style name="SplashTheme" parent="@style/AppTheme">
-        <item name="android:windowBackground">@color/mainColoe</item>
+        <item name="android:windowBackground">@color/mainColor</item>
     </style>
 
     <style name="CollapsingToolbarTitleStyle" parent="@android:style/TextAppearance">
@@ -27,6 +29,12 @@
         <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
         <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
         <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <!-- Button widget -->
+    <style name="TextAppearance.AppCompat.Button.NoAllCaps" parent="TextAppearance.AppCompat.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
 </resources>
