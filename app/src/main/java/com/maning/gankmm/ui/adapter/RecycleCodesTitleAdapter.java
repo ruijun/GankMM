@@ -41,7 +41,7 @@ public class RecycleCodesTitleAdapter extends RecyclerView.Adapter<RecycleCodesT
 
         if (type.equals(holder.tvTitle.getText().toString())) {
             holder.tvTitle.setTextColor(context.getResources().getColor(R.color.white));
-            holder.tvTitle.setBackgroundColor(context.getResources().getColor(R.color.mainColoe));
+            holder.tvTitle.setBackgroundColor(context.getResources().getColor(R.color.mainColor));
         } else {
             holder.tvTitle.setTextColor(context.getResources().getColor(R.color.textBlack));
             holder.tvTitle.setBackgroundColor(context.getResources().getColor(R.color.white));
